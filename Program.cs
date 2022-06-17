@@ -10,3 +10,10 @@ Console.WriteLine("Enter y2");
 double y2 = Convert.ToDouble(Console.ReadLine());
 double length = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
 Console.WriteLine("length of this line is " + length);
+
+double l1 = 33;
+double l2 = 40;
+if (l1 == l2)
+    Console.WriteLine("Equal Lines");
+else
+    Console.WriteLine("Not Equal Lines");
